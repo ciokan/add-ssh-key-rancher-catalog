@@ -1,7 +1,7 @@
 sshkeyadder:
     image: ciokan/add-ssh-key:latest
     volumes:
-        - /tmp:/tmp/user
+        - ${USER_HOME}:/tmp/user
     environment:
         SSH_KEY_TO_ADD: '${SSH_KEY_TO_ADD}'
     labels:

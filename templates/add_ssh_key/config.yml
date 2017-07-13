@@ -1,4 +1,4 @@
-name: SSH Key Adder
+name: Add SSH key to clients
 description: |
   Deploy this catalog item to add your SSH key to all the hosts.
 version: v0.1
